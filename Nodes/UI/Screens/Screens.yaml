@@ -807,7 +807,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Button4"}
+      Value: {"LocaleId":"en-US","Text":"pippo"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -818,3 +818,8 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 10.0
+    - Name: BackgroundColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ff0000"
