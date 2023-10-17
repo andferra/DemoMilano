@@ -1,0 +1,231 @@
+Name: VariableTypes
+Type: FolderType
+Children:
+- Name: DATETIMESTRUCT
+  Id: g=0f428b68a49e84fcdf0a1382938ca5cd
+  Supertype: TagStructure
+  DataType: DATETIMESTRUCT
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "b5e71cfc08d3b24db575dde66486bdb7",
+     "Namespace": 7
+    },
+    "Body": {
+     "Day": 0,
+     "Hour": 0,
+     "Microsecond": 0,
+     "Minute": 0,
+     "Month": 0,
+     "Second": 0,
+     "Year": 0
+    }
+   }
+  Children:
+  - Name: Day
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Day"
+  - Name: Hour
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Hour"
+  - Name: Microsecond
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Microsecond"
+  - Name: Minute
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Minute"
+  - Name: Month
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Month"
+  - Name: Second
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Second"
+  - Name: Year
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Year"
+- Name: Motor
+  Id: g=e968b9e4d33e4ed354da86bc2bbcb288
+  Supertype: TagStructure
+  DataType: Motor
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "13350d865396d062c8285698ed184b11",
+     "Namespace": 7
+    },
+    "Body": {
+     "CmdOffOn": false,
+     "Power": 0.0,
+     "SetSpeed": 0,
+     "Speed": 0,
+     "Status": false
+    }
+   }
+  Children:
+  - Name: CmdOffOn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CmdOffOn"
+  - Name: Power
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Power"
+  - Name: SetSpeed
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SetSpeed"
+  - Name: Speed
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Speed"
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Status"
+- Name: TankUDT
+  Id: g=46a908416df7f1fadba38555a923457f
+  Supertype: TagStructure
+  DataType: TankUDT
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "e631d6432db28e0cd779de7ae2081e72",
+     "Namespace": 7
+    },
+    "Body": {
+     "Level": 0.0,
+     "SetPoint": 0.0,
+     "ValveInCmd": false,
+     "ValveInStatus": false,
+     "ValveOutCmd": false,
+     "ValveOutStatus": false
+    }
+   }
+  Children:
+  - Name: Level
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Level"
+  - Name: SetPoint
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SetPoint"
+  - Name: ValveInCmd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ValveInCmd"
+  - Name: ValveInStatus
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ValveInStatus"
+  - Name: ValveOutCmd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ValveOutCmd"
+  - Name: ValveOutStatus
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ValveOutStatus"

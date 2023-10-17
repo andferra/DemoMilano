@@ -1,0 +1,71 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: VarBool
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: VarInt
+  Id: g=eb23ac47d6aa4c5b75a657da5b56172e
+  Type: BaseDataVariableType
+  DataType: Int16
+  Value: 0
+- Name: VarArray
+  Type: BaseDataVariableType
+  DataType: Int16
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Value: [0,0,0,0,0,0,0,0,0,0]
+- Name: VarArrayBid
+  Type: BaseDataVariableType
+  DataType: Int16
+  ValueRank: 2
+  ArrayDimensions: [10,10]
+  Value: 
+   {
+    "Type": 4,
+    "Dimensions": [10,10],
+    "Body": [
+     0,0,0,0,0,0,0,0,0,0,
+     0,0,0,0,0,0,0,0,0,0,
+     0,0,0,0,0,0,0,0,0,0,
+     0,0,0,0,0,0,0,0,0,0,
+     0,0,0,0,0,0,0,0,0,0,
+     0,0,0,0,0,0,0,0,0,0,
+     0,0,0,0,0,0,0,0,0,0,
+     0,0,0,0,0,0,0,0,0,0,
+     0,0,0,0,0,0,0,0,0,0,
+     0,0,0,0,0,0,0,0,0,0
+    ]
+   }
+- Name: LimMin
+  Id: g=7963f09f8b3bb48e7bfdef100c9cfcae
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: LimMax
+  Id: g=f186d24255d9672b7fc604032f83cfa6
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 100
+- Name: VarModelLevel
+  Id: g=6cc681d14a1e238e78cd043d82c155a7
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Tank1/Level"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: VarPLC
+  Id: g=b5a5293e61d2efe0849f0a055259b4ae
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- File: VariabiliMotore/VariabiliMotore.yaml

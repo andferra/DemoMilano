@@ -1,0 +1,49 @@
+Name: VariabiliMotore
+Type: FolderType
+Children:
+- Name: ObjectMotor
+  Id: g=429557cdd621b3dd40a7786e4d457840
+  Supertype: BaseObjectType
+  Children:
+  - Name: speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: ObjectMotor1
+  Id: g=1b42f3e2016422d1a6dcfc2088765cda
+  Type: ObjectMotor
+  Children:
+  - Name: speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 20
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Motors/1/Power"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 40
+- Name: ObjectMotor2
+  Id: g=23d3b2a98c4c0889e5ca2623722fe99c
+  Type: ObjectMotor
+  Children:
+  - Name: speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 70
+  - Name: acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 80
